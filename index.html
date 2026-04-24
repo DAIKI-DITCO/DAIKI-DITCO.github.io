@@ -20,17 +20,24 @@ body{
   border-radius:8px;
 }
 
+.header{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  margin-bottom:20px;
+}
+
+img.logo{
+  max-width:160px;
+  margin-bottom:10px;
+}
+
 h1, h2{
   color:#0056b3;
 }
 
 p{
   line-height:1.5;
-}
-
-img.logo{
-  max-width:200px;
-  margin:15px 0;
 }
 
 .form-wrapper {
@@ -86,9 +93,10 @@ footer{
 
 <div class="container">
 
-<h1>Daiki International Trading Corporation (DITCO)</h1>
-
-<img class="logo" src="logo.png" alt="DITCO Logo">
+<div class="header">
+  <img class="logo" src="logo.png" alt="DITCO Logo">
+  <h1>Daiki International Trading Corporation (DITCO)</h1>
+</div>
 
 <p>
 Daiki International Trading Corporation (DITCO) is an international trading company specializing in the buying and selling of aluminium ingots and scrap. The company also supports global raw material market analysis and information gathering to assist international trading operations.
