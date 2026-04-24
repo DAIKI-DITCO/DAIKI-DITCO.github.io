@@ -28,9 +28,9 @@ p{
   line-height:1.5;
 }
 
-a{
-  color:#0056b3;
-  text-decoration:none;
+img.logo{
+  max-width:200px;
+  margin:15px 0;
 }
 
 .form-wrapper {
@@ -88,12 +88,10 @@ footer{
 
 <h1>Daiki International Trading Corporation (DITCO)</h1>
 
-<p>
-Daiki International Trading Corporation (DITCO) is an international trading company focused on the buying and selling of aluminium ingots and scrap. The company also supports global market information gathering for raw material markets and related industries.
-</p>
+<img class="logo" src="logo.png" alt="DITCO Logo">
 
 <p>
-DITCO operates as an overseas affiliate of Daiki Aluminium Industry Co., Ltd.
+Daiki International Trading Corporation (DITCO) is an international trading company specializing in the buying and selling of aluminium ingots and scrap. The company also supports global raw material market analysis and information gathering to assist international trading operations.
 </p>
 
 <p>
@@ -106,19 +104,19 @@ DITCO operates as an overseas affiliate of Daiki Aluminium Industry Co., Ltd.
 
 <div class="form-wrapper">
 
-<form>
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
 
   <label>Name</label>
-  <input type="text" required>
+  <input type="text" name="name" required>
 
   <label>Email</label>
-  <input type="email" required>
+  <input type="email" name="email" required>
 
   <label>Phone Number</label>
-  <input type="tel" required>
+  <input type="tel" name="phone" required>
 
   <label>Message</label>
-  <textarea rows="4"></textarea>
+  <textarea name="message" rows="4"></textarea>
 
   <div class="checkbox-row">
     <input type="checkbox" required>
