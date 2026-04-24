@@ -27,6 +27,23 @@ footer{
   color:#666;
 }
 
+input, textarea {
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border:1px solid #ccc;
+  border-radius:4px;
+}
+
+button {
+  background:#0056b3;
+  color:#fff;
+  padding:10px 15px;
+  border:none;
+  border-radius:4px;
+  cursor:pointer;
+}
+  
 a{
   color:#0056b3;
   text-decoration:none;
@@ -79,6 +96,30 @@ a{
     <a href="privacy.html">Privacy Policy & SMS Terms</a>
   </footer>
 
+<h2>Contact Us</h2>
+
+<form>
+  <label>Name</label>
+  <input type="text" required>
+
+  <label>Email</label>
+  <input type="email" required>
+
+  <label>Phone Number</label>
+  <input type="tel" required>
+
+  <label>Message</label>
+  <textarea rows="4"></textarea>
+
+  <label>
+    <input type="checkbox" required>
+    By checking this box, I consent to receive text messages related to operational communications from Daiki International Trading Corporation (DITCO). You can reply "STOP" at any time to opt out. Message and data rates may apply. Message frequency may vary. Text HELP to 424-237-1010 for assistance. See our <a href="privacy.html">Privacy Policy & SMS Terms</a>.
+  </label>
+
+  <br><br>
+  <button type="submit">Submit</button>
+</form>
+  
 </div>
 
 </body>
